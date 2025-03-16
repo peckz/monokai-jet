@@ -27,6 +27,21 @@
       }
     },
     {
+      "name": "CSS Property Values",
+      "scope": [
+        "support.constant.property-value",
+        "support.constant.font-name",
+        "support.constant.media",
+        "support.constant.media-type",
+        "constant.other.color.rgb-value",
+        "constant.other.rgb-value",
+        "support.constant.color"
+      ],
+      "settings": {
+        "foreground": "#80DF68"
+      }
+    },
+    {
       "name": "String",
       "scope": "string",
       "settings": {
@@ -83,6 +98,7 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
+        "fontStyle": "",
         "foreground": "#F92672"
       }
     },
@@ -98,7 +114,8 @@
       "name": "Storage type",
       "scope": "storage.type",
       "settings": {
-        "foreground": "#66D9EF"
+        "fontStyle": "",
+        "foreground": "#F92672"
       }
     },
     {
